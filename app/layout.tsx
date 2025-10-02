@@ -6,10 +6,11 @@ import { Suspense } from "react"
 import "./globals.css"
 import SiteHeader from "@/components/site-header"
 import SiteFooter from "@/components/site-footer"
+import { ThemeProvider } from "@/components/theme-provider"
 
 export const metadata: Metadata = {
-  title: "Professional Training Coach",
-  description: "Expert-led professional training and corporate upskilling in India.",
+  title: "DATAR Training - Professional Development & Corporate Training",
+  description: "Expert-led professional training and corporate upskilling in India by Dr. Mahesh Vasoya and Mr. Sudesh Aggrawal.",
   generator: "v0.app",
 }
 
@@ -29,12 +30,19 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en" className={`${inter.variable} ${poppins.variable} antialiased`}>
       <body className="font-sans min-h-dvh flex flex-col">
-        <SiteHeader />
-        <Suspense fallback={null}>
-          <main className="flex-1">{children}</main>
-        </Suspense>
-        <SiteFooter />
-        <Analytics />
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem={false}
+          disableTransitionOnChange
+        >
+          <SiteHeader />
+          <Suspense fallback={null}>
+            <main className="flex-1">{children}</main>
+          </Suspense>
+          <SiteFooter />
+          <Analytics />
+        </ThemeProvider>
       </body>
     </html>
   )

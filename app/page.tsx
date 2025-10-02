@@ -6,11 +6,10 @@ import UspStats from "@/components/usp-stats"
 import Testimonials from "@/components/testimonials"
 import CtaBanner from "@/components/cta-banner"
 import ContactSection from "@/components/contact-section"
-import SiteFooter from "@/components/site-footer"
 
 export default function Page() {
   return (
-    <main>
+    <>
       <Hero />
       <About />
       <ProgramsGrid />
@@ -19,7 +18,6 @@ export default function Page() {
       <Testimonials />
       <CtaBanner />
       <ContactSection />
-      <SiteFooter />
-    </main>
+    </>
   )
 }
