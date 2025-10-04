@@ -1,16 +1,26 @@
 export default function About() {
   return (
-    <section className="px-6 py-12 md:py-16 bg-secondary">
+  
+  
+  
+  
+  
+  <section className="px-6 py-12 md:py-16 bg-secondary">
       <div className="mx-auto max-w-6xl grid md:grid-cols-2 gap-10 items-center">
-        <div className="rounded-lg overflow-hidden ring-1 ring-border">
-          <img alt="Coach portrait" src="/indian-coach-portrait.jpg" className="w-full h-auto object-cover" />
+        <div className="space-y-4">
+          <div className="w-[350px] h-[300px] rounded-lg overflow-hidden ring-1 ring-border mx-auto">
+            <img alt="Image 1" src="/image%201.jpeg" className="w-full h-full object-cover object-top" />
+          </div>
+          <div className="w-[350px] h-[300px] rounded-lg overflow-hidden ring-1 ring-border mx-auto">
+            <img alt="Image 2" src="/image%202.jpeg" className="w-full h-full object-cover object-top" />
+          </div>
         </div>
         <div className="space-y-4">
           <h2 className="heading-font text-3xl md:text-4xl font-semibold">Meet Our Expert Coaches</h2>
           <div className="space-y-4">
             <div>
               <h3 className="text-xl font-semibold text-primary">Dr. Mahesh Vasoya</h3>
-              <p className="text-sm text-muted-foreground mb-2">Lead Training Consultant</p>
+              <p className="text-sm text-muted-foreground mb-2"> Dr. McV  (Dr. Mahesh Vasoya)       B.tech, MBA,  Phd. In Corporate Training and Quality Assurance</p>
             </div>
             <div>
               <h3 className="text-xl font-semibold text-primary">Mr. Sudesh Aggrawal</h3>

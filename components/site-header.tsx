@@ -30,6 +30,9 @@ export default function SiteHeader() {
           <Link href="/testimonials" className="hover:underline">
             Testimonials
           </Link>
+          <Link href="/investment" className="hover:underline">
+            Investment
+          </Link>
           <Link href="/contact" className={cn("hover:underline text-accent-foreground px-3 py-1 rounded-md bg-accent")}>
             Contact
           </Link>
@@ -68,6 +71,9 @@ export default function SiteHeader() {
           </Link>
           <Link href="/testimonials" onClick={() => setOpen(false)} className="hover:underline">
             Testimonials
+          </Link>
+          <Link href="/investment" onClick={() => setOpen(false)} className="hover:underline">
+            Investment
           </Link>
           <Link href="/contact" onClick={() => setOpen(false)} className="hover:underline">
             Contact
