@@ -12,7 +12,7 @@ export default function SiteHeader() {
     <header className="sticky top-0 z-40 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
       <div className="mx-auto max-w-6xl px-6 h-14 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <img src="/LOGO.PNG" alt="DATAR Training" className="h-11 w-9" />
+          <img src="/Datar Logo 01.png" alt="DATAR Training" className="h-11 w-auto" />
           <span className="heading-font font-semibold text-lg">DATAR Training</span>
           <span className="sr-only">Go to homepage</span>
         </Link>
