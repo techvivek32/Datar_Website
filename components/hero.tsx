@@ -23,11 +23,11 @@ export default function Hero() {
             </Button>
           </div>
         </div>
-        <div className="rounded-xl overflow-hidden ring-1 ring-border">
+        <div className="w-full h-[400px] md:h-[500px] rounded-xl overflow-hidden ring-1 ring-border">
           <img
             alt="Professional coach speaking to a group in India"
-            src="/indian-professional-training-coach.jpg"
-            className="w-full h-auto object-cover"
+            src="/image%201.jpeg"
+            className="w-full h-full object-cover object-top"
           />
         </div>
       </div>

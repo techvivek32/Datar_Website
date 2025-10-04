@@ -24,7 +24,7 @@ export default function About() {
             </div>
             <div>
               <h3 className="text-xl font-semibold text-primary">Mr. Sudesh Aggrawal</h3>
-              <p className="text-sm text-muted-foreground mb-2">Senior Training Specialist</p>
+              <p className="text-sm text-muted-foreground mb-2">M.SC.(IT), PGDSM, PGDCA, CBC</p>
             </div>
           </div>
           <p className="leading-relaxed">
