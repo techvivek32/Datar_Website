@@ -1,9 +1,9 @@
-export default function Investment() {
+export default function Franchise() {
   return (
     <section className="px-6 py-12 md:py-16">
       <div className="mx-auto max-w-6xl space-y-10">
         <div className="text-center space-y-4">
-          <h1 className="heading-font text-3xl md:text-4xl font-semibold">Investment & ROI</h1>
+          <h1 className="heading-font text-3xl md:text-4xl font-semibold">Franchise & ROI</h1>
           <p className="text-lg leading-relaxed">
             Invest in your professional growth with DATAR Training programs.
           </p>
